@@ -34,6 +34,8 @@ function resetFields() {
 // user interface logic
 $(document).ready(function() {
 
+  $('body').fadeIn(3000)
+
 
   $("#add-address").click(function() {
     $("#new-addresses").append('<div class="new-address">' +
