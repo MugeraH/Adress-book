@@ -90,6 +90,11 @@ $(document).ready(function() {
   resetFields()
 
 
+  //? two methods to remove new address boxes
+  // $(".new-address").slice(1).remove();
+  $(".new-address:not(:first)").hide();
+
+
 
 }); 
 
